@@ -87,7 +87,8 @@ filetype indent on
 function! PhpTemplate()
     call setline(1, "<?php")
     call setline(2, "")
-    call cursor(2, 0)
+    call setline(3, "")
+    call cursor(3, 0)
 endfunction
 
 au BufNewFile *.php call PhpTemplate()
@@ -95,7 +96,8 @@ au BufNewFile *.php call PhpTemplate()
 function! BinBashShTemplate()
     call setline(1, "#!/bin/bash")
     call setline(2, "")
-    call cursor(2, 0)
+    call setline(3, "")
+    call cursor(3, 0)
 endfunction
 
 au BufNewFile *.sh call BinBashShTemplate()

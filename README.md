@@ -1,3 +1,4 @@
+```
 color koehler
 
 " Ensure we're using the latest Vim features
@@ -101,3 +102,4 @@ function! BinBashShTemplate()
 endfunction
 
 au BufNewFile *.sh call BinBashShTemplate()
+```

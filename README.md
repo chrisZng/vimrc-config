@@ -1,3 +1,5 @@
+`/etc/vim/vimrc`
+
 ```
 color koehler
 
